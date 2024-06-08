@@ -8,16 +8,16 @@ nulos = int(input())
 
 soma = (votos_a + votos_b + votos_c + nulos)
 calculo1 = (votos_a * 100)
-x_a = (calculo1 / soma)
+x_a = (calculo1 // soma)
 
 calculo2 = (votos_b * 100)
-x_b = (calculo2 / soma)
+x_b = (calculo2 // soma)
 
 calculo3 = (votos_c * 100)
-x_c = (calculo3 / soma)
+x_c = (calculo3 // soma)
 
 calculo4 = (nulos * 100)
-x_d = (calculo4 / soma)
+x_d = (calculo4 // soma)
 
 print(f"Candidato A: {x_a:.0f}%")
 print(f"Candidato B: {x_b:.0f}%")
