@@ -1,0 +1,11 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+soma = (a * b) - (c * d)
+print("DIGITE O VALOR A:")
+print("DIGITE O VALOR B:")
+print("DIGITE O VALOR C:")
+print("DIGITE O VALOR D:")
+print(f"DIFERENCA = {soma}")
